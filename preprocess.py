@@ -138,8 +138,6 @@ def get_split_word(age_df):
 
 #先分词，根据类别分词，先去除na，再算词频。先根据词频做训练。
 if __name__ == "__main__": 
-	#df = pd.read_csv("C:/Users/YYC/Desktop/ccf/user_tag_query.2W.train.csv", sep='|')
-	#print(df)
 	reload(sys)
 	sys.setdefaultencoding("utf-8")
 	print "start"
